@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
@@ -55,8 +56,8 @@
     <div class="conteiner">
       <div class="container-information">
         <img class="rounded-img" src="..\My_CV\image\I_am.jpg" width="200" height="200" alt="Andrii" /><br />
-        <h1 class="fw-light">Andrii Kosteniuk</h1>
-        <h2>Personal information</h2>
+        <h1 class="title">Andrii Kosteniuk</h1>
+        <h2 class="title">Personal information</h2>
         <ul>
           <li>
             <i class="fa-solid fa-phone fa-2xs"> Phone number</i><br>
@@ -76,17 +77,23 @@
             <i class="fa-solid fa-check fa-2xs">16.19.1986</i>
           </li>
         </ul>
-        <h2>Hobby</h2>
+        <h2 class="title">Hobby</h2>
         <ul>
           <li>
-            <i class="fa-solid fa-volleyball fa-2xs"> Volleyball</i>
+            <i class="fa-solid fa-volleyball fa-sm">
+              <span class="title lead"> Voleyball</span>
+            </i>
           </li>
         </ul>
-        <h2>Lanquges</h2>
+        <h2 class="title">Lanquges</h2>
         <ul>
           <li>
-            <i class="fa-solid fa-globe  fa-2xs"> Ukrainian </i><br>
-            <i class="fa-solid fa-globe fa-2xs"> English</i>
+            <i class="fa-solid fa-language fa-sm">
+              <span class="title lead"> Ukrainian</span>
+            </i><br>
+            <i class="fa-solid fa-language fa-sm">
+              <span class="title lead"> English</span>
+            </i>
           </li>
         </ul>
       </div>
@@ -97,7 +104,7 @@
               <div class="brecket-left-blok">
 
                 <div class="child-left">
-                  <i class="fa-solid fa-code fa-3x"></i>
+                  <i class="fa-solid fa-code fa-2x"></i>
                 </div>
               </div>
               <div class="header-text">
@@ -107,7 +114,7 @@
               </div>
               <div class="brecket-right-blok">
                 <div class="child-right">
-                  <i class="fa-solid fa-code fa-3x"></i>
+                  <i class="fa-solid fa-code fa-2x"></i>
                 </div>
               </div>
             </div>
@@ -119,7 +126,7 @@
                 <i class="fa-solid fa-circle-check fa-lg">
                   <span class="title">About myself</span></i>
               </div>
-              <p>
+              <p style="text-align: justify;">
                 I am a purposeful and responsible person!
                 I value such things as kindness, courtesy, mutual help, honesty and respect for each other.
                 Despite various difficulties,
@@ -130,58 +137,202 @@
             </div>
           </section>
           <hr class="border border-info border-2 opacity-25">
+          <section class="education-section">
+            <div class="education">
+              <i class="fa-solid fa-graduation-cap fa-lg">
+                <span class="title">Education</soan></i>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-face-smile fa-sm">
+                    <span class="edu-title"> Borshchiv agrotechnical callege</span>
+                  </i>
+                </li>
+                <ul>
+                  <li>
+                    <span class="edu-subtitle lead"> Occupation: Economy of enterprises</span>
+                    <span class="date"> (06.2002 - 02.2004)</span>
+                  </li>
+                </ul>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-face-smile fa-sm">
+                    <span class="edu-title"> Europian university</span>
+                  </i>
+                  <ul>
+                    <li>
+                      <span class="edu-subtitle lead"> Occupation: Economy of enterprises</span>
+                      <span class="date"> (02.2004 - 02.2006)</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-face-smile fa-sm">
+                    <span class="edu-title"> Polish school of social integration</span>
+                  </i>
+                </li>
+                <ul>
+                  <li>
+                    <span class="edu-subtitle lead"> Occupation: Safety technician</span>
+                    <span class="date"> (02.2021 - 08.2022)</span>
+                  </li>
+                </ul>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fa-regular fa-face-smile fa-sm">
+                    <span class="edu-title"> Courses Google cloud</span>
+                  </i>
+                  <ul>
+                    <li></li>
+                    <span>
+                      I also took courses on the Google Cloud "ML and Data" program,
+                      where I gained basic knowledge of working with Google's cloud environment.
+                      In the training program there were many different practical tasks as well as quests, after passing
+                      which I received I was geting skill badges.
+                      <br>
+                      <a class="google-link" href="https://www.cloudskillsboost.google/public_profiles/6cf19702-5576-48f0-b8b6-523131f3d717"
+                        target="_blank">My Goole Cloud profile:</a>
+                    </span>
+                    
+                  </ul>
+                </li>
+
+              </ul>
+            </div>
+          </section>
+          <hr class="border border-info border-2 opacity-25">
           <section class="work-section">
             <div class="work-experience">
               <i class="fa-solid fa-briefcase fa-lg">
-                <span class="title">Work expirience</soan></i>
+                <span class="title">Work expirience</span></i>
               <ul>
                 <li>
                   <i class="fa-solid fa-shield-halved fa-sm">
-                    <span class="work-section-title"> Security</span>
-                    <span class="date"> (01.2007 - 03.2008)</span>
+                    <span class="work-title lead"> Security</span>
+                    <span class="date lead"> (01.2007 - 03.2008)</span>
                   </i>
                 </li>
                 <li>
                   <i class="fa-solid fa-fire-extinguisher fa-sm">
-                    <span class="work-section-title lead"> Fireman</span>
-                    <span class="date"> (04.2008 - 06.2013)</span>
+                    <span class="work-title lead"> Fireman</span>
+                    <span class="date lead"> (04.2008 - 06.2013)</span>
                   </i>
                 </li>
                 <li>
                   <i class="fa-sharp fa-solid fa-user-tie fa-sm">
-                    <span class="work-section-title lead"> Manager of sales</span>
-                    <span class="date"> (07.2013 -  09.2018)</span>
+                    <span class="work-title lead"> Manager of sales</span>
+                    <span class="date lead"> (07.2013 - 09.2018)</span>
                   </i>
                 </li>
                 <li>
                   <i class="fa-solid fa-pen-to-square fa-sm">
-                    <span class="work-section-title lead"> Administrator on the warehouse</span>
-                    <span class="date"> (09.2018 -  05.2020)</span>
+                    <span class="work-title lead"> Administrator on the warehouse</span>
+                    <span class="date lead"> (09.2018 - 05.2020)</span>
                   </i>
                 </li>
                 <li>
-                  <i class="fa-sharp fa-solid fa-forklift fa-sm">
-                    <span class="work-section-title lead"> Forklift driver</span>
-                    <span class="date"> (05.2020 - 2023)</span>
+                  <i class="fa-solid fa-hand-point-up fa-sm">
+                    <span class="work-title lead"> Forklift driver</span>
+                    <span class="date lead"> (05.2020 - 2023)</span>
                   </i>
                 </li>
               </ul>
             </div>
           </section>
           <hr class="border border-info border-2 opacity-25">
-          <section class="education-section">
-            <div class="education">
-              <i class="fa-solid fa-graduation-cap fa-lg">
-                <span class="title">Education</soan></i>
-              </i>
-              <h2 class="educatin-section-title">Europian university</h2>
-              <h2 class="educatin-section-title"> Economy of enterprises</h2>
-              <span class="date">01.2004</span>
-              <span class="hyphen-separator"> - </span>
-              <span class="date">04.2006</span>
+          <section class="skill-section">
+            <div class="my-skills">
+              <i class="fa-solid fa-sitemap fa-lg">
+                <span class="title">My skills</span></i>
+              <ul>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title"> Courses "JavaRush" JAVA CORE</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:100%">100%</div>
+                  </div>
+                  <ul>
+                    <li>
+                      <span class="skill-title lead" style="text-align: ;">
+                        In these courses, I learned the basics of programming in the Java programming language.
+                        During my studies, I passed such modules as: Java Core, Multitrading, Collections
+                      </span>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">ALGORITHMS AND DATA STRUCTURES</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:80%">Basic</div>
+                  </div>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">SQL, POSTGRES, MYSQL</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:80%">Basic</div>
+                  </div>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">SPRING, HIBERNATE</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:25%">Beginner</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">MAVEN І GRADLE</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:25%">Beginner</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">WORKING WITH GIT</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:40%">Beginner</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">SOLID prinсiples</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:80%">Basic</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">CODE TESTING</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:80%">Basic</div>
+                  </div>
+                </li>
+                <li>
+                  <i class="fa-solid fa-mug-saucer fa-sm">
+                    <span class="skill-title">HTML, CSS</span>
+                  </i>
+                  <div class="w3-light-grey w3-tiny">
+                    <div class="w3-container w3-blue" style="width:35%">Beginer</div>
+                  </div>
+                </li>
+              </ul>
             </div>
           </section>
-          <hr class="border border-info border-2 opacity-25">
         </div>
       </div>
     </div>
