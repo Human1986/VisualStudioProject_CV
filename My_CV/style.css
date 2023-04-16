@@ -46,7 +46,7 @@ body {
 }
 
 h1 {
-  font-family: 'Tangerine', cursive;  
+  font-family: "Tangerine", cursive;
   font-size: 50px;
   color: var(--azure);
   text-shadow: #08171a;
@@ -62,18 +62,22 @@ h2 {
   display: flex;
 }
 
-.brecket-left-blok {
-  margin-left: 40px;
-  margin-right: auto;
+.brecket-left-blok > .brecket-right-blok {
+  display: flex;
 }
 
-.brecket-right-blok {
-  margin-right: 40px;
-  margin-left: auto;
+i {
+  margin-top: 20px;
+  margin-left: 0.1em;
+  margin-right: 0.1em;
 }
 
 .greating {
   font-family: "Playfair Display", regular;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .contacts {
@@ -89,6 +93,7 @@ li {
   color: rgb(37, 37, 37);
 }
 
+
 .fa-check {
   color: var(--azure);
 }
@@ -101,3 +106,36 @@ li {
   background-image: linear-gradient(to top, #84ced5, #7f9da2);
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
+
+.biography-section {
+  margin-left: 0.7em;
+  margin-right: 0.5em;
+}
+.work-section {
+  margin-left: 0.7em;
+  margin-right: 0.5em;
+}
+
+.education-section {
+  margin-left: 0.7em;
+  margin-right: 0.5em;
+}
+
+.work-section-title{
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.educatin-section-title{
+  font-family: "Playfair Display", serif;
+}
+
+.date{
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.title{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
