@@ -9,7 +9,7 @@
 
 .container-information {
   background-image: linear-gradient(to top, #84ced5, #5b838a);
-  margin-right: 2px;
+  margin-left: 5px;
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
 
@@ -21,7 +21,7 @@
 
 .rounded-img {
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(26, 9, 9, 0.2);
+  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
   padding: 0.4em;
   margin-bottom: 2em;
   margin: 0 auto;
@@ -38,28 +38,39 @@
 }
 
 body {
-  padding: 0.5px;
   background-image: linear-gradient(to top, #d6dbdd, #64a1a9);
-
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 h1 {
-  font-family: "Tangerine", cursive;
-  font-size: 50px;
   color: var(--azure);
   text-shadow: #08171a;
 }
 
 h2 {
-  font-family: "Alkatra", cursive;
   font-family: "Playfair Display", serif;
   font-size: 22px;
+}
+.name {
+  font-family: "Lobster", cursive;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+}
+
+a.google-link:link {
+  color: #ff0000;
+}
+
+a.google-link:visited {
+  color: #0000ff;
+}
+
+a.google-link:hover {
+  font-size: 120%;
 }
 
 .liner-blok {
   display: flex;
+  margin-bottom: 3px;
 }
 
 .brecket-left-blok > .brecket-right-blok {
@@ -67,14 +78,14 @@ h2 {
 }
 
 i {
-  margin-top: 20px;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  margin-top: 0.5em;
 }
 
 .greating {
-  font-family: "Playfair Display", regular;
-  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
@@ -82,7 +93,7 @@ i {
 
 .contacts {
   font-size: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 ul {
@@ -93,6 +104,10 @@ li {
   color: rgb(37, 37, 37);
 }
 
+.border {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .fa-check {
   color: var(--azure);
@@ -121,21 +136,227 @@ li {
   margin-right: 0.5em;
 }
 
-.work-section-title{
+.skill-section {
+  margin-left: 0.7em;
+  margin-right: 0.5em;
+}
+
+.my-skills {
+  background: linear-gradient(to top, #d6dbdd);
+  margin-left: 2px;
+}
+
+.work-title {
   font-family: "Playfair Display", serif;
   font-size: 18px;
 }
 
-.educatin-section-title{
+.skill-title {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.edu-title {
   font-family: "Playfair Display", serif;
 }
 
-.date{
+.date {
   font-family: "Playfair Display", serif;
   font-size: 14px;
 }
 
-.title{
+.title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.edu-title {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.edu-subtitle {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+.work-experience {
+  margin-top: 1px;
+}
+
+.skills h2 {
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #4b4a4a;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.progress-bar {
+  background: #edeaea;
+  width: 600px;
+  height: 5px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 5px;
+  border-radius: 5px;
+  width: 0%;
+}
+
+.progress-bar div span {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #f5f3f3;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: #e70e0e;
+  display: flex;
+  align-items: center; 
+  /* justify-content: center; */
+}
+
+.java {
+  background: #e91e63;
+  animation: java 1s linear forwards;
+}
+.algoritms {
+  background: #f6fb6c;
+  animation: algoritms 1s linear forwards;
+}
+.sql {
+  background: #00bcd4;
+  animation: sql 1s linear forwards;
+}
+.git {
+  background: #57e76d;
+  animation: git 1s linear forwards;
+}
+.spring {
+  background: #eaa8be;
+  animation: spring 1s linear forwards;
+}
+.maven {
+  background: #20e4b0;
+  animation: maven 1s linear forwards;
+}
+.html {
+  background: #00bcd4;
+  animation: html 1s linear forwards;
+}
+.solid {
+  background: #070593;
+  animation: solid 1s linear forwards;
+}
+.test {
+  background: #e8ce09;
+  animation: test 1s linear forwards;
+}
+
+.core {
+  background: #5795f3;
+  animation: core 1s linear forwards;
+}
+
+.java span {
+  border: 2px solid #e91e63;
+}
+
+.algoritms span {
+  border: 2px solid #f6fb6c;
+}
+
+.sql span {
+  border: 2px solid #00bcd4;
+}
+
+.git span {
+  border: 2px solid #57e76d;
+}
+
+.spring span {
+  border: 2px solid #eaa8be;
+}
+
+.maven span {
+  border: 2px solid #20e4b0;
+}
+
+.html span {
+  border: 2px solid #00bcd4;
+}
+
+.solid span {
+  border: 2px solid #070593;
+}
+
+.test span {
+  border: 2px solid #e8ce09;
+}
+
+.core span {
+  border: 2px solid #5795f3;
+}
+
+@keyframes java {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes algoritms {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes sql {
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes git {
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes spring {
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes maven {
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes html {
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes solid {
+  100% {
+    width: 40%;
+  }
+}
+
+@keyframes test {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes core {
+  100% {
+    width: 100%;
+  }
+}
