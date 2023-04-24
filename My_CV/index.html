@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My CV</title>
+  <title>CV_Andrii</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
@@ -32,68 +32,89 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#personal_info">Personal information</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Personal information</a>
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
+            <a class="nav-link" href="#work_exp">Work experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work experience</a>
+            <a class="nav-link" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Hobies</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Languages</a>
+            <a class="nav-link" href="#len">Languages</a>
           </li>
         </ul>
       </div>
   </nav>
-  <div class="resume resume--web page-format-a4">
+  <div class="resume">
     <div class="conteiner">
       <div class="container-information">
         <img class="rounded-img" src="..\My_CV\image\I_am.jpg" width="200" height="200" alt="Andrii" /><br />
         <h1 class="name">Andrii Kosteniuk</h1>
-        <h2 class="title">Personal information</h2>
+        <p class="personal-info lead" id="personal_info">Personal information</p>
         <ul>
           <li>
-            <i class="fa-solid fa-phone fa-2xs"> Phone number</i><br>
-            <i class="fa-solid fa-check fa-2xs"> +48663567594</i><br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+            </svg>
+              <span class="title">Phone number</span><br>
+            <span class="title-info">+48 663-567-594</span><br>
           </li>
           <li>
-            <i class="fa-solid fa-house fa-2xs"> Address</i><br>
-            <i class="fa-solid fa-check fa-2xs"> ul.Grabiszynska, Wrocław</i><br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+              <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+            </svg>
+              <span class="title">Address</span><br>
+            <span class="title-info">ul.Grabiszyńska, Wrocław</span>
           </li>
           <li>
-            <i class="fa-solid fa-envelope fa-2xs"> Mail</i><br>
-            <i class="fa-solid fa-check fa-2xs"><a class="link-opacity-50-hover" href="https://gmail.com"
-                target="_blank">andriy.kosteniuk@gmail.com</a></i><br>
-          </li>
-          <li>
-            <i class="fa-solid fa-calendar-days fa-2xs"> Date of birthday</i><br>
-            <i class="fa-solid fa-check fa-2xs">16.19.1986</i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+              <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
+              <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
+            </svg>
+              <span class="title">Email</span><br>
+            <a class="link-opacity-50-hover link-link" href="https://gmail.com" target="_blank">
+              <span class="title-info">andriy.kosteniuk@gmail.com</span></a></i><br>
           </li>
         </ul>
-        <h2 class="title">Hobby</h2>
+        <p class="language lead" id="len">Languages</p>
         <ul>
           <li>
-            <i class="fa-solid fa-volleyball fa-sm">
-              <span class="title lead"> Voleyball</span>
-            </i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate"
+              viewBox="0 0 16 16">
+              <path
+                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
+              <path
+                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
+            </svg>
+            <span class="title-info lead"> Ukrainian (Native)</span>
           </li>
         </ul>
-        <h2 class="title">Lanquges</h2>
         <ul>
           <li>
-            <i class="fa-solid fa-language fa-sm">
-              <span class="title lead"> Ukrainian C2</span>
-            </i><br>
-            <i class="fa-solid fa-language fa-sm">
-              <span class="title lead"> English A2</span>
-            </i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate"
+              viewBox="0 0 16 16">
+              <path
+                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
+              <path
+                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
+            </svg>
+            <span class="title-info lead"> English A2</span>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-translate"
+              viewBox="0 0 16 16">
+              <path
+                d="M4.545 6.714 4.11 8H3l1.862-5h1.284L8 8H6.833l-.435-1.286H4.545zm1.634-.736L5.5 3.956h-.049l-.679 2.022H6.18z" />
+              <path
+                d="M0 2a2 2 0 0 1 2-2h7a2 2 0 0 1 2 2v3h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-3H2a2 2 0 0 1-2-2V2zm2-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H2zm7.138 9.995c.193.301.402.583.63.846-.748.575-1.673 1.001-2.768 1.292.178.217.451.635.555.867 1.125-.359 2.08-.844 2.886-1.494.777.665 1.739 1.165 2.93 1.472.133-.254.414-.673.629-.89-1.125-.253-2.057-.694-2.82-1.284.681-.747 1.222-1.651 1.621-2.757H14V8h-3v1.047h.765c-.318.844-.74 1.546-1.272 2.13a6.066 6.066 0 0 1-.415-.492 1.988 1.988 0 0 1-.94.31z" />
+            </svg>
+            <span class="title-info lead"> Polish B1</span>
           </li>
         </ul>
       </div>
@@ -102,9 +123,8 @@
           <section class="header-section">
             <div class="liner-blok">
               <div class="brecket-left-blok">
-
                 <div class="child-left">
-                  <i class="fa-solid fa-code fa-2x"></i>
+                  <i class="fa-solid fa-code fa-lg"></i>
                 </div>
               </div>
               <div class="header-text">
@@ -114,38 +134,47 @@
               </div>
               <div class="brecket-right-blok">
                 <div class="child-right">
-                  <i class="fa-solid fa-code fa-2x"></i>
+                  <i class="fa-solid fa-code fa-lg"></i>
                 </div>
               </div>
             </div>
           </section>
-          <hr class="border border-info border-2 opacity-25">
           <section class="biography-section">
             <div class="biography">
               <div style="display: flex; min-height: 30px;">
-                <i class="fa-solid fa-circle-check fa-lg">
-                  <span class="title">About myself</span></i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                  <path d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg>
+                  <span class="title">About myself</span>
               </div>
               <p style="text-align: justify;">
-                I am a purposeful and responsible person!
-                I value such things as kindness, courtesy, mutual help, honesty and respect for each other.
-                Despite various difficulties,
-                I always plan my actions in advance
-                and assess the situation in order to understand how to act in a
-                particular situation.
+                I am a purposeful, hardworking and responsible person. My priority in life is to achieve success and
+                fulfill my dreams.
+                I believe that I am endowed with rational and logical thinking, I plan my actions and decisions in
+                advance.
+                I devote my personal time to self-education and learning new information.
+                In terms of work, I am very serious and responsible.
+                I start work or tasks and try to solve and finish them as quickly and efficiently as possible.
+                I like everything to be relatively correct, I like and follow order.
+                Also, I improve myself by solving algorithmic tasks on a site like Leet Code
+                <a class="link-link" href="https://leetcode.com/borschiv86/" target="_blank">my LeetCode profile.</a>
               </p>
             </div>
           </section>
-          <hr class="border border-info border-2 opacity-25">
           <section class="education-section">
             <div class="education">
-              <i class="fa-solid fa-graduation-cap fa-lg">
-                <span class="title">Education</soan></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+                <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+              </svg>
+                <span class="title" id="education">Education</span>
               <ul>
                 <li>
-                  <i class="fa-regular fa-face-smile fa-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                  </svg>
                     <span class="edu-title"> Borshchiv agrotechnical callege</span>
-                  </i>
                 </li>
                 <ul>
                   <li>
@@ -156,9 +185,10 @@
               </ul>
               <ul>
                 <li>
-                  <i class="fa-regular fa-face-smile fa-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                  </svg>
                     <span class="edu-title"> Europian university</span>
-                  </i>
                   <ul>
                     <li>
                       <span class="edu-subtitle lead"> Occupation: Economy of enterprises</span>
@@ -169,9 +199,10 @@
               </ul>
               <ul>
                 <li>
-                  <i class="fa-regular fa-face-smile fa-sm">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001z"/>
+                  </svg>
                     <span class="edu-title"> Polish school of social integration</span>
-                  </i>
                 </li>
                 <ul>
                   <li>
@@ -181,43 +212,49 @@
                 </ul>
               </ul>
               <div>
-                <i class="fa-solid fa-laptop-code fa-lg">   
-                  <span class="title">Courses</soan></i>
-                </i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+                  <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+                </svg>
+                  <span class="title">Courses</span></i>
               </div>
               <ul>
                 <li>
-                  <i class="fa-regular fa-face-smile fa-sm">
-                    <span class="edu-title"> Cours Google cloud</span>
-                  </i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-check-fill" viewBox="0 0 16 16">
+                    <path d="M8 2a5.53 5.53 0 0 0-3.594 1.342c-.766.66-1.321 1.52-1.464 2.383C1.266 6.095 0 7.555 0 9.318 0 11.366 1.708 13 3.781 13h8.906C14.502 13 16 11.57 16 9.773c0-1.636-1.242-2.969-2.834-3.194C12.923 3.999 10.69 2 8 2zm2.354 4.854-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                  </svg>
+                    <span class="course-name"> Course Google cloud</span>
                   <ul>
-                    <span>
+                    <span class="courses_description lead">
                       I also took courses on the Google Cloud "ML and Data" program,
                       where I gained basic knowledge of working with Google's cloud environment.
                       In the training program there were many different practical tasks as well as quests, after passing
-                      which I received I was geting skill badges.
-                      <br>
-                      <a class="google-link"
+                      which I received I got skill badges, which can be seen in
+                      <a class="link-link"
                         href="https://www.cloudskillsboost.google/public_profiles/6cf19702-5576-48f0-b8b6-523131f3d717"
-                        target="_blank">My Goole Cloud profile:</a>
+                        target="_blank">my Goole Cloud profile.</a>
                     </span>
                   </ul>
                 </li><br>
                 <li>
-                  <i class="fa-regular fa-face-smile fa-sm">
-                    <span class="skill-title"> Cours "JavaRush"</span>
-                  </i>
-                  <div class="skills">
-                    <h2>JAVA CORE</h2>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cup-hot-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M.5 6a.5.5 0 0 0-.488.608l1.652 7.434A2.5 2.5 0 0 0 4.104 16h5.792a2.5 2.5 0 0 0 2.44-1.958l.131-.59a3 3 0 0 0 1.3-5.854l.221-.99A.5.5 0 0 0 13.5 6H.5ZM13 12.5a2.01 2.01 0 0 1-.316-.025l.867-3.898A2.001 2.001 0 0 1 13 12.5Z"/>
+                    <path d="m4.4.8-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 3.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 3.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 3 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 4.4.8Zm3 0-.003.004-.014.019a4.167 4.167 0 0 0-.204.31 2.327 2.327 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.31 3.31 0 0 1-.202.388 5.444 5.444 0 0 1-.253.382l-.018.025-.005.008-.002.002A.5.5 0 0 1 6.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 6.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 6 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 7.4.8Zm3 0-.003.004-.014.019a4.077 4.077 0 0 0-.204.31 2.337 2.337 0 0 0-.141.267c-.026.06-.034.092-.037.103v.004a.593.593 0 0 0 .091.248c.075.133.178.272.308.445l.01.012c.118.158.26.347.37.543.112.2.22.455.22.745 0 .188-.065.368-.119.494a3.198 3.198 0 0 1-.202.388 5.385 5.385 0 0 1-.252.382l-.019.025-.005.008-.002.002A.5.5 0 0 1 9.6 4.2l.003-.004.014-.019a4.149 4.149 0 0 0 .204-.31 2.06 2.06 0 0 0 .141-.267c.026-.06.034-.092.037-.103a.593.593 0 0 0-.09-.252A4.334 4.334 0 0 0 9.6 2.8l-.01-.012a5.099 5.099 0 0 1-.37-.543A1.53 1.53 0 0 1 9 1.5c0-.188.065-.368.119-.494.059-.138.134-.274.202-.388a5.446 5.446 0 0 1 .253-.382l.025-.035A.5.5 0 0 1 10.4.8Z"/>
+                  </svg>
+                    <span class="course-name"> Course "JavaRush"</span>
+                  <div class="course-name">
                     <div class="progress-bar">
                       <div class="core"><span>100%</span></div>
                     </div>
                   </div>
                 <li>
-                  <span class="skill-title lead" style="text-align: center">
-                    In these courses, I learned the basics of programming in the Java programming language.
-                    During my studies, I passed such modules as: Java Core, Multitrading, Collections
-                  </span>
+                  <ul>
+                    <span class="courses_description lead">
+                      In these course, I learned the basics of object-oriented programming.
+                      Training took place according to the methodology - 20% theory and 80% practice.
+                      This allowed me to learn the basics of the Java programming language,
+                      including such modules as Java Core, Multithreading, Collections.
+                    </span>
+                  </ul>
                 </li>
               </ul>
               </li>
@@ -225,11 +262,13 @@
               </ul>
             </div>
           </section>
-          <hr class="border border-info border-2 opacity-25">
           <section class="work-section">
             <div class="work-experience">
-              <i class="fa-solid fa-briefcase fa-lg">
-                <span class="title">Work expirience</span></i>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+              </svg>
+                <span class="title" id="work_exp">Work expirience</span></i>
               <ul>
                 <li>
                   <i class="fa-solid fa-shield-halved fa-sm">
@@ -264,22 +303,22 @@
               </ul>
             </div>
           </section>
-          <hr class="border border-info border-2 opacity-25">
           <section class="skill-section">
             <div class="my-skills">
-              <i class="fa-solid fa-sitemap fa-lg">
-                <span class="title">My skills</span></i>
-
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-diagram-3-fill" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+              </svg>
+                <span class="title" id="skills">My skills</span>
               <div class="skills">
                 <h2>Java</h2>
                 <div class="progress-bar">
                   <div class="java"><span>100%</span></div>
                 </div>
-                <h2>ALGORITHMS AND DATA STRUCTURES</h2>
+                <h2>Algoritms and data structures</h2>
                 <div class="progress-bar">
                   <div class="algoritms"><span>100%</span></div>
                 </div>
-                <h2>SQL, POSTGRES, MYSQL</h2>
+                <h2>SQL, Postgres, MySQL</h2>
                 <div class="progress-bar">
                   <div class="sql"><span>80%</span></div>
                 </div>
@@ -287,11 +326,11 @@
                 <div class="progress-bar">
                   <div class="git"><span>50%</span></div>
                 </div>
-                <h2>Spring, HIBERNATE</h2>
+                <h2>Spring, Hibernate</h2>
                 <div class="progress-bar">
                   <div class="spring"><span>30%</span></div>
                 </div>
-                <h2>MAVEN AND GRADLE</h2>
+                <h2>Maven</h2>
                 <div class="progress-bar">
                   <div class="maven"><span>30%</span></div>
                 </div>
@@ -301,11 +340,11 @@
                 </div>
                 <h2>SOLID prinсiples</h2>
                 <div class="progress-bar">
-                  <div class="solid"><span>40%</span></div>
+                  <div class="solid"><span>100%</span></div>
                 </div>
-                <h2>CODE TESTING</h2>
+                <h2>Code testing</h2>
                 <div class="progress-bar">
-                  <div class="test"><span>40%</span></div>
+                  <div class="test"><span>60%</span></div>
                 </div>
               </div>
             </div>

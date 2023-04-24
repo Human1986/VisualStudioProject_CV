@@ -9,12 +9,13 @@
 
 .container-information {
   background-image: linear-gradient(to top, #84ced5, #5b838a);
-  margin-left: 5px;
+  margin-left: 10px;
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
+  background-size: 500px;
 }
 
 .my-information {
-  background-color: aliceblue;
+  background-color:var(--azure);
   margin-left: 1px;
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
@@ -37,34 +38,58 @@
   margin-right: auto;
 }
 
-body {
-  background-image: linear-gradient(to top, #d6dbdd, #64a1a9);
+.navbar {
+  background-image: linear-gradient(to top, #84ced5, #7f9da2);
+  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
+
+.nav-link {
+  font-size: 12px;
+}
+
 
 h1 {
   color: var(--azure);
   text-shadow: #08171a;
 }
 
-h2 {
-  font-family: "Playfair Display", serif;
-  font-size: 22px;
+.personal-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
 }
+.language{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.title-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  color: var(--azure);
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
 .name {
   font-family: "Lobster", cursive;
   font-family: "Tangerine", cursive;
   font-size: 50px;
 }
 
-a.google-link:link {
+a.link-link:link {
   color: #ff0000;
 }
 
-a.google-link:visited {
+a.link-link:visited {
   color: #0000ff;
 }
 
-a.google-link:hover {
+a.link-link:hover {
   font-size: 120%;
 }
 
@@ -84,139 +109,127 @@ i {
 }
 
 .greating {
-  font-family: "Playfair Display", serif;
-  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.contacts {
-  font-size: 15px;
-  font-family: "Playfair Display", serif;
-}
 
 ul {
   list-style-type: none;
 }
 
-li {
-  color: rgb(37, 37, 37);
-}
 
-.border {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
-.fa-check {
-  color: var(--azure);
-}
-
-.text-muted {
-  color: var(--azure);
-}
-
-.navbar {
-  background-image: linear-gradient(to top, #84ced5, #7f9da2);
-  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
-}
-
-.biography-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
+.biography-section  {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .work-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
-}
-
-.education-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
-}
-
-.skill-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
-}
-
-.my-skills {
-  background: linear-gradient(to top, #d6dbdd);
-  margin-left: 2px;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .work-title {
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+.education-section {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.course-name {
+  font-size: 16px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.skill-section {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.my-skills {
+  margin-right: auto;
 }
 
 .skill-title {
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
 }
 
 .edu-title {
-  font-family: "Playfair Display", serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  
 }
 
 .date {
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10px;
 }
 
 .title {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.edu-title {
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
-}
 
 .edu-subtitle {
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
-}
-.work-experience {
-  margin-top: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
 }
 
+.course-name {
+  font-size: 12px;
+}
+
+
+.courses_description {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
 .skills h2 {
-  font-weight: 100;
-  letter-spacing: 1px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
   color: #4b4a4a;
-  font-weight: bold;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .progress-bar {
-  background: #edeaea;
-  width: 600px;
-  height: 5px;
+  background:var(--azure);
+  width: auto;
+  height: 16px;
   border-radius: 5px;
 }
 
 .progress-bar div {
-  height: 5px;
-  border-radius: 5px;
+  height: 2px;
+  border-radius: 3px;
   width: 0%;
+
 }
 
 .progress-bar div span {
-  height: 40px;
-  width: 40px;
+  height: 15px;
+  width: 15px;
   border-radius: 50%;
-  background: #f5f3f3;
+  background: var(--azure);
   float: right;
-  margin-top: -15px;
-  margin-right: -20px;
-  color: #e70e0e;
+  margin-top: -7px;
+  margin-right: -10px;
+  color: #140101;
   display: flex;
-  align-items: center; 
-  /* justify-content: center; */
+  align-items: center;
+  justify-content: center;
+  font-size: 5px;
 }
 
 .java {
@@ -303,13 +316,13 @@ li {
 
 @keyframes java {
   100% {
-    width: 100%;
+    width: 98%;
   }
 }
 
 @keyframes algoritms {
   100% {
-    width: 100%;
+    width: 98%;
   }
 }
 
@@ -345,18 +358,18 @@ li {
 
 @keyframes solid {
   100% {
-    width: 40%;
+    width: 98%;
   }
 }
 
 @keyframes test {
   100% {
-    width: 100%;
+    width: 60%;
   }
 }
 
 @keyframes core {
   100% {
-    width: 100%;
+    width: 98%;
   }
 }
