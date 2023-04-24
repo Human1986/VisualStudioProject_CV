@@ -9,19 +9,20 @@
 
 .container-information {
   background-image: linear-gradient(to top, #84ced5, #5b838a);
-  margin-right: 2px;
+  margin-left: 10px;
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
+  background-size: 500px;
 }
 
 .my-information {
-  background-color: aliceblue;
+  background-color:var(--azure);
   margin-left: 1px;
   box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
 
 .rounded-img {
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(26, 9, 9, 0.2);
+  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
   padding: 0.4em;
   margin-bottom: 2em;
   margin: 0 auto;
@@ -37,29 +38,64 @@
   margin-right: auto;
 }
 
-body {
-  padding: 0.5px;
-  background-image: linear-gradient(to top, #d6dbdd, #64a1a9);
-
-  background-size: cover;
-  background-repeat: no-repeat;
+.navbar {
+  background-image: linear-gradient(to top, #84ced5, #7f9da2);
+  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
 }
 
+.nav-link {
+  font-size: 12px;
+}
+
+
 h1 {
-  font-family: "Tangerine", cursive;
-  font-size: 50px;
   color: var(--azure);
   text-shadow: #08171a;
 }
 
-h2 {
-  font-family: "Alkatra", cursive;
-  font-family: "Playfair Display", serif;
-  font-size: 22px;
+.personal-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.language{
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.title-info {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  color: var(--azure);
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+.name {
+  font-family: "Lobster", cursive;
+  font-family: "Tangerine", cursive;
+  font-size: 50px;
+}
+
+a.link-link:link {
+  color: #ff0000;
+}
+
+a.link-link:visited {
+  color: #0000ff;
+}
+
+a.link-link:hover {
+  font-size: 120%;
 }
 
 .liner-blok {
   display: flex;
+  margin-bottom: 3px;
 }
 
 .brecket-left-blok > .brecket-right-blok {
@@ -67,75 +103,273 @@ h2 {
 }
 
 i {
-  margin-top: 20px;
-  margin-left: 0.1em;
-  margin-right: 0.1em;
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  margin-top: 0.5em;
 }
 
 .greating {
-  font-family: "Playfair Display", regular;
-  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
   text-align: center;
   margin-left: 5px;
   margin-right: 5px;
 }
 
-.contacts {
-  font-size: 15px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
 ul {
   list-style-type: none;
 }
 
-li {
-  color: rgb(37, 37, 37);
-}
 
-
-.fa-check {
-  color: var(--azure);
-}
-
-.text-muted {
-  color: var(--azure);
-}
-
-.navbar {
-  background-image: linear-gradient(to top, #84ced5, #7f9da2);
-  box-shadow: 0 0 50px rgba(8, 0, 0, 0.3);
-}
-
-.biography-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
+.biography-section  {
+  margin-left: 1em;
+  margin-right: 1em;
 }
 .work-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.work-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
 }
 
 .education-section {
-  margin-left: 0.7em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
-.work-section-title{
-  font-family: "Playfair Display", serif;
-  font-size: 18px;
-}
-
-.educatin-section-title{
-  font-family: "Playfair Display", serif;
-}
-
-.date{
-  font-family: "Playfair Display", serif;
-  font-size: 14px;
-}
-
-.title{
+.course-name {
+  font-size: 16px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+.skill-section {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.my-skills {
+  margin-right: auto;
+}
+
+.skill-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+.edu-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  
+}
+
+.date {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 10px;
+}
+
+.title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+.edu-subtitle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+.course-name {
+  font-size: 12px;
+}
+
+
+.courses_description {
+  font-size: 12px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.skills h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 3px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  color: #4b4a4a;
+  font-size: 13px;
+}
+
+.progress-bar {
+  background:var(--azure);
+  width: auto;
+  height: 16px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 2px;
+  border-radius: 3px;
+  width: 0%;
+
+}
+
+.progress-bar div span {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: var(--azure);
+  float: right;
+  margin-top: -7px;
+  margin-right: -10px;
+  color: #140101;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5px;
+}
+
+.java {
+  background: #e91e63;
+  animation: java 1s linear forwards;
+}
+.algoritms {
+  background: #f6fb6c;
+  animation: algoritms 1s linear forwards;
+}
+.sql {
+  background: #00bcd4;
+  animation: sql 1s linear forwards;
+}
+.git {
+  background: #57e76d;
+  animation: git 1s linear forwards;
+}
+.spring {
+  background: #eaa8be;
+  animation: spring 1s linear forwards;
+}
+.maven {
+  background: #20e4b0;
+  animation: maven 1s linear forwards;
+}
+.html {
+  background: #00bcd4;
+  animation: html 1s linear forwards;
+}
+.solid {
+  background: #070593;
+  animation: solid 1s linear forwards;
+}
+.test {
+  background: #e8ce09;
+  animation: test 1s linear forwards;
+}
+
+.core {
+  background: #5795f3;
+  animation: core 1s linear forwards;
+}
+
+.java span {
+  border: 2px solid #e91e63;
+}
+
+.algoritms span {
+  border: 2px solid #f6fb6c;
+}
+
+.sql span {
+  border: 2px solid #00bcd4;
+}
+
+.git span {
+  border: 2px solid #57e76d;
+}
+
+.spring span {
+  border: 2px solid #eaa8be;
+}
+
+.maven span {
+  border: 2px solid #20e4b0;
+}
+
+.html span {
+  border: 2px solid #00bcd4;
+}
+
+.solid span {
+  border: 2px solid #070593;
+}
+
+.test span {
+  border: 2px solid #e8ce09;
+}
+
+.core span {
+  border: 2px solid #5795f3;
+}
+
+@keyframes java {
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes algoritms {
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes sql {
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes git {
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes spring {
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes maven {
+  100% {
+    width: 30%;
+  }
+}
+
+@keyframes html {
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes solid {
+  100% {
+    width: 98%;
+  }
+}
+
+@keyframes test {
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes core {
+  100% {
+    width: 98%;
+  }
+}
